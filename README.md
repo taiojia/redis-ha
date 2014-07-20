@@ -13,14 +13,16 @@ git clone https://github.com/nofdev/redis-ha.git
 ```
 
 * According to the need to edit the configuration file. The configuration files stored in the following location:
-  * redis-ha\conf\keepalived.conf.master
-    - This is the keepalived master configuration.
-  * redis-ha\conf\keepalived.conf.backup
-    - This is the keepalived backup configuration.
-  * redis-ha\conf\redis.conf.master
+  * redis-ha/conf/keepalived.conf.master
+    - This is the keepalived master configuration, you have to edit the VIP.
+  * redis-ha/conf/keepalived.conf.backup
+    - This is the keepalived backup configuration, you have to edit the VIP.
+  * redis-ha/conf/redis.conf.master
     - This is the redis master configuration.
-  * redis-ha\conf\redis.conf.slave
+  * redis-ha/conf/redis.conf.slave
     - This is the redis slave configuration.
+  * redis-ha/tools/redis.sh
+    - This is the fail-over script invoked by keepalived, you have to edit the redis master ip.
 
 * To deploy the master node:
 ```
