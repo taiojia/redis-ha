@@ -6,7 +6,7 @@ Redis with replication and failover (keepalived)
 ### Overview
 This project help you to deploy redis With HA and automatic recovery. A basic cluster is a redis master and a redis slave, slave sync data from master. a redis master and some redis slaves if you needed.
 
-## How to use?
+### How to use?
 * Clone this repo on all of the node:
 ```
 git clone https://github.com/nofdev/redis-ha.git
