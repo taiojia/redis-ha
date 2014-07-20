@@ -1,0 +1,31 @@
+global_defs {
+   notification_email {
+   }
+   router_id REDIS_2
+}
+vrrp_script chk_redis {
+    script "killall -0 redis-server"
+    interval 2
+}
+vrrp_instance VI_10 {
+    state BACKUP
+    interface eth0
+    garp_master_delay 10
+    virtual_router_id 10
+    nopreempt
+    priority 100
+    advert_int 4
+    authentication {
+        auth_type PASS
+        auth_pass 1111
+    }
+    virtual_ipaddress {
+        192.168.1.10/24 brd 172.20.10.255 dev eth0
+    }
+    track_script {
+        chk_redis
+    }
+notify_master "/usr/bin/sudo -u redis bash /var/lib/redis/redis.sh -m"
+notify_backup "/usr/bin/sudo -u redis bash /var/lib/redis/redis.sh -s"
+notify_fault "/usr/bin/sudo -u redis bash /var/lib/redis/redis.sh -k"
+}
