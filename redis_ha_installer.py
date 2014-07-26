@@ -14,7 +14,7 @@ from noflib import noflib
 run = noflib()
 
 def usage():
-    print 'Usage: sudo python redis_ha_installer.py [master|backup]'
+    print 'Usage: sudo python redis_ha_installer.py <master|backup>'
 
 def start_instace():
     run.execute_get_output('sudo', 'redis-server', '/etc/redis/redis.conf')
