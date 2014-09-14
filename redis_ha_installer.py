@@ -9,9 +9,9 @@ import os
 import sys
 import shutil
 import logging
-from noflib import noflib
+from command import Command
 
-run = noflib()
+run = Command()
 
 def usage():
     print 'Usage: sudo python redis_ha_installer.py <master|backup>'
