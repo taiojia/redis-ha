@@ -4,7 +4,7 @@ redis-ha
 Redis with replication and failover (keepalived)
 
 ### Overview
-This project help you to deploy redis With HA and automatic recovery. A basic cluster is a redis master and a redis slave, slave sync data from master. a redis master and some redis slaves if you needed. The project only for redis cache service not support transaction managemant.
+This project help you to deploy redis With HA and automatic recovery. A basic cluster is a redis master and a redis slave, slave sync data from master. Only a redis master and a redis slave based on this arch. The project only for redis cache service not support transaction managemant.
 
 ### How to use?
 * Clone this repo on all of the node:
@@ -33,6 +33,10 @@ sudo python redis_ha_installer.py master
 ```
 sudo python redis_ha_installer.py backup
 ```
+
+###About the redis.sh script
+* On the master node, The REDIS_MASTER_IP is the slave IP.
+* On the slave node, The REDIS_MASTER_IP is the master IP.
 
 ###Author
 jiasir (Taio Jia) <jiasir@icloud.com>
