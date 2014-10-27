@@ -26,7 +26,15 @@ def install_keepalived():
             f.write('net.ipv4.ip_nonlocal_bind = 1')
     except IOError:
         print IOError.__doc__
+
+    try:
+        with open('/etc/rc.local', 'a') as f:
+                f.write('ulimit -SHn 65535')
+    except IOError:
+        print IOError.__doc__
+
     run.execute_get_output('sudo', 'sysctl', '-p')
+    run.execute_get_output('sudo', 'ulimit', '-SHn', '65535')
     run.execute_get_output('sudo', 'apt-get', 'update')
     run.execute_get_output('sudo', 'apt-get', '-y', 'install', 'keepalived')
 
