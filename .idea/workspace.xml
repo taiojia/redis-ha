@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c6344c1-9fc3-421d-b6ba-d350d4f590e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis_ha_installer.py" afterPath="$PROJECT_DIR$/redis_ha_installer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis_ha_installer_el6.py" afterPath="$PROJECT_DIR$/redis_ha_installer_el6.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis_ha_installer_el7.py" afterPath="$PROJECT_DIR$/redis_ha_installer_el7.py" />
-    </list>
+    <list default="true" id="0c6344c1-9fc3-421d-b6ba-d350d4f590e9" name="Default" comment="" />
     <ignored path="redis-ha.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,8 +73,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="134" />
-    <option name="y" value="99" />
+    <option name="x" value="-236" />
+    <option name="y" value="52" />
     <option name="width" value="1520" />
     <option name="height" value="894" />
   </component>
@@ -246,7 +242,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="134" y="99" width="1520" height="894" extended-state="0" />
+    <frame x="-236" y="52" width="1520" height="894" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
