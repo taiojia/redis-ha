@@ -40,3 +40,7 @@ sudo python redis_ha_installer.py backup
 
 ###Author
 jiasir (Taio Jia) <jiasir@icloud.com>
+
+
+### Change log
+2014.10.28 - Change the redis configuration settings, compatible with the version 2.8.17 and resoled the soft and hard limits.
