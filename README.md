@@ -34,6 +34,9 @@ sudo python redis_ha_installer.py master
 sudo python redis_ha_installer.py backup
 ```
 
+### Note
+* Please use the stable version.
+
 ###About the redis.sh script
 * On the master node, set the `REDIS_MASTER_IP` as slave IP.
 * On the slave node, set the `REDIS_MASTER_IP` as master IP.

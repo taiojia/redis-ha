@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0c6344c1-9fc3-421d-b6ba-d350d4f590e9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redis-ha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,8 +61,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91251516" vertical-offset="329" max-vertical-offset="1248">
-              <caret line="45" column="124" selection-start-line="45" selection-start-column="124" selection-end-line="45" selection-end-column="124" />
+            <state vertical-scroll-proportion="0.47509113" vertical-offset="497" max-vertical-offset="1320">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -72,7 +71,7 @@
       <file leaf-file-name="redis_ha_installer_el6.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis_ha_installer_el6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="2520">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="2424">
               <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding />
             </state>
@@ -82,7 +81,7 @@
       <file leaf-file-name="redis_ha_installer_el7.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis_ha_installer_el7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="2520">
+            <state vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="2424">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="36" selection-end-column="29" />
               <folding />
             </state>
@@ -471,6 +470,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/redis_ha_installer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="984" max-vertical-offset="2328">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/redis.conf.slave">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="10200">
+          <caret line="307" column="2" selection-start-line="307" selection-start-column="2" selection-end-line="307" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/redis.conf.master">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8577" max-vertical-offset="10152">
+          <caret line="373" column="2" selection-start-line="373" selection-start-column="2" selection-end-line="373" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redis_ha_installer_el7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2424">
@@ -487,37 +510,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis_ha_installer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="984" max-vertical-offset="2328">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/redis.conf.master">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8577" max-vertical-offset="10152">
-          <caret line="373" column="2" selection-start-line="373" selection-start-column="2" selection-end-line="373" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/redis.conf.slave">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="10200">
-          <caret line="307" column="2" selection-start-line="307" selection-start-column="2" selection-end-line="307" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91251516" vertical-offset="329" max-vertical-offset="1248">
-          <caret line="45" column="124" selection-start-line="45" selection-start-column="124" selection-end-line="45" selection-end-column="124" />
+        <state vertical-scroll-proportion="0.47509113" vertical-offset="497" max-vertical-offset="1320">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
           <folding />
         </state>
       </provider>
