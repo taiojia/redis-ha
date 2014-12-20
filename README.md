@@ -41,9 +41,15 @@ sudo python redis_ha_installer.py backup
 * On the master node, set the `REDIS_MASTER_IP` as slave IP.
 * On the slave node, set the `REDIS_MASTER_IP` as master IP.
 
-###Author
+### Using docker
+* Please deploy docker daemon on your server.
+* Choose your correct Docker file and rename it to `Dockerfile`.
+* Using `docker build -t user/repo:tag` to build your image.
+
+### Author
 jiasir (Taio Jia) <jiasir@icloud.com>
 
 
 ### Change log
+2014.12.20 - Add support for the docker.
 2014.10.28 - Change the redis configuration settings, compatible with the version 2.8.17 and resoled the soft and hard limits.

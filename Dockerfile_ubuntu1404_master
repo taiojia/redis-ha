@@ -1,0 +1,9 @@
+FROM ubuntu:14.04
+
+MAINTAINER jiasir <jiasir@icloud.com>
+
+COPY . /src
+RUN apt-get update && apt-get install python
+RUN cd /src; python python redis_ha_installer.py master
+EXPOSE 22 6379
+CMD ["service", "keepalived", "start"]

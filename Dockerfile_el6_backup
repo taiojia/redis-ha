@@ -1,0 +1,9 @@
+FROM centos:centos6
+
+MAINTAINER jiasir <jiasir@icloud.com>
+
+COPY . /src
+RUN yum install python
+RUN cd /src; python python redis_ha_installer_el6.py backup
+EXPOSE 22 6379
+CMD ["service", "keepalived", "start"]
